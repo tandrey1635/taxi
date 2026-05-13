@@ -67,7 +67,7 @@ ul {
   line-height: 1.2;
   font-weight: 900;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
 }
 .header__link:hover {
   background-color: #ffc61a;
@@ -84,7 +84,7 @@ ul {
   font-size: 40.4px;
   line-height: 1.2;
   font-weight: 900;
-  color: #ffffff;
+  color: #fff;
 }
 .header .heading__logo_color {
   color: #daa505;
@@ -95,7 +95,7 @@ ul {
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #ffffff;
+  color: #fff;
 }
 .header h1 {
   font-family: Lato;
@@ -103,7 +103,7 @@ ul {
   line-height: 1.2;
   font-weight: 900;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 .header__text {
@@ -114,7 +114,7 @@ ul {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.72em;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 
@@ -145,7 +145,7 @@ ul {
   line-height: 1.2;
   font-weight: 900;
   text-transform: uppercase;
-  color: #000000;
+  color: #000;
   padding-bottom: 26px;
 }
 .promo__heading_mod {
@@ -166,7 +166,7 @@ ul {
 }
 .promo__btn {
   display: inline-block;
-  background-color: #000000;
+  background-color: #000;
   border-radius: 10px;
   padding: 8px 35px;
 }
@@ -177,7 +177,7 @@ ul {
   line-height: 1.2;
   font-weight: 700;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   font-family: "Bebas Neue", cursive;
 }
 .promo__right {
@@ -189,7 +189,7 @@ ul {
   line-height: 1.2;
   font-weight: 900;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   background: #000;
   padding: 13px 37px;
   margin-bottom: 48px;
@@ -200,7 +200,7 @@ ul {
 .promo__form {
   width: 422px;
   height: 500px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .promo .form__content_top {
   padding: 0 22px 0 34px;
@@ -214,7 +214,7 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   font-weight: 600;
-  color: #000000;
+  color: #000;
 }
 .promo .form__input {
   padding: 0 10px;
@@ -225,12 +225,10 @@ ul {
   border-bottom: 3px solid gray;
   background-color: #e4e4e4;
   margin-bottom: 32px;
-  box-sizing: border-box;
   background: transparent;
 }
 .promo .form__input_mod {
   padding: 0 10px;
-  box-sizing: border-box;
   width: 100%;
   margin-bottom: 32px;
   background: transparent;
@@ -252,7 +250,7 @@ ul {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   border-radius: 15px;
   outline: none;
   font-family: "Bebas Neue", cursive;
@@ -263,14 +261,14 @@ ul {
   padding-top: 63px;
   padding-bottom: 77px;
   min-height: 742px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .rent__heading {
   font-size: 44px;
   line-height: 1.2;
   font-weight: 900;
   text-transform: uppercase;
-  color: #000000;
+  color: #000;
   text-align: center;
 }
 .rent__heading_color {
@@ -294,11 +292,11 @@ ul {
   min-height: 424px;
   background-color: #f5f4f2;
 }
-.rent .items_mod {
-  background-color: #ffc61a;
-}
 .rent .car__items:not(:last-child) {
   margin-right: 36px;
+}
+.rent .items_mod {
+  background-color: #ffc61a;
 }
 .rent .car__img {
   width: 373px;
@@ -320,7 +318,7 @@ ul {
   line-height: 1.2;
   font-weight: 900;
   text-transform: uppercase;
-  color: #000000;
+  color: #000;
 }
 .rent .taxi__text {
   font-size: 18px;
@@ -339,7 +337,7 @@ ul {
   text-transform: uppercase;
   color: #ffc61a;
 }
-.rent .taxi__price_mod {
+.rent .taxi__price_mod, .rent .taxi__price_mod_mod {
   color: #131313;
 }
 .rent .car__btn {
@@ -354,7 +352,7 @@ ul {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  color: #000000;
+  color: #000;
   background-color: #ffc61a;
   border-radius: 10px;
   padding: 6px 32px;
@@ -362,7 +360,7 @@ ul {
 }
 .rent .link_mod {
   background-color: #1b1b1b;
-  color: #ffffff;
+  color: #fff;
   font-family: "Bebas Neue", cursive;
 }
 
@@ -392,7 +390,7 @@ ul {
   line-height: 1.2;
   font-weight: 900;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   padding-bottom: 104px;
 }
@@ -400,6 +398,7 @@ ul {
   display: flex;
 }
 .ride__img {
+  flex-shrink: 0;
   width: 81px;
   height: 81px;
   margin-right: 36px;
@@ -434,7 +433,7 @@ ul {
   font-size: 18px;
   line-height: 1.2;
   font-weight: 400;
-  color: #ffffff;
+  color: #fff;
   padding-bottom: 84px;
 }
 .ride .ride__btn {
@@ -459,7 +458,7 @@ ul {
 .mobile {
   padding-top: 64px;
   min-height: 665px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .mobile__heading {
   font-size: 35px;
@@ -474,7 +473,7 @@ ul {
   line-height: 1.2;
   font-weight: 900;
   text-transform: uppercase;
-  color: #000000;
+  color: #000;
   text-align: center;
 }
 .mobile__content {
@@ -486,20 +485,20 @@ ul {
   width: 500px;
   margin-top: 82px;
 }
-.mobile__photo {
-  width: 210px;
-  height: 65px;
-}
 .mobile__info_right {
   width: 45%;
   margin-top: 41px;
   align-self: flex-end;
 }
+.mobile__photo {
+  width: 210px;
+  height: 65px;
+}
 .mobile .heading__download {
   font-size: 25.5px;
   line-height: 1.2;
   font-weight: 900;
-  color: #000000;
+  color: #000;
   padding-bottom: 28px;
 }
 .mobile .text__download {
@@ -546,7 +545,7 @@ ul {
   line-height: 1.2;
   font-weight: 900;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 .reviews__content {
@@ -560,7 +559,6 @@ ul {
   min-height: 240px;
   background-color: #000;
   border-radius: 50px;
-  box-sizing: border-box;
 }
 .reviews__items:not(:last-child) {
   margin-right: 32px;
@@ -586,7 +584,7 @@ ul {
   font-size: 18px;
   line-height: 1.2;
   font-weight: 400;
-  color: #ffffff;
+  color: #fff;
   padding-bottom: 24px;
 }
 .reviews .heading__descriptions {
@@ -601,7 +599,7 @@ ul {
   line-height: 1.2;
   font-weight: 900;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
 }
 
 .info {
@@ -615,7 +613,7 @@ ul {
   line-height: 1.2;
   font-weight: 900;
   text-transform: uppercase;
-  color: #000000;
+  color: #000;
   text-align: center;
 }
 .info__text {
@@ -623,7 +621,7 @@ ul {
   line-height: 1.2;
   font-weight: 900;
   text-transform: uppercase;
-  color: #000000;
+  color: #000;
   text-align: center;
   padding-top: 32px;
 }
@@ -663,7 +661,7 @@ ul {
   line-height: 1.2;
   font-weight: 900;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
 }
 .about__border {
   width: 100%;
@@ -679,7 +677,7 @@ ul {
   font-size: 18px;
   line-height: 1.2;
   font-weight: 400;
-  color: #ffffff;
+  color: #fff;
   padding-top: 46px;
   padding-bottom: 40px;
 }
@@ -689,7 +687,7 @@ ul {
 }
 .about .box .fab {
   display: block;
-  color: #ffffff;
+  color: #fff;
   font-size: 30px;
   line-height: 24px;
   font-weight: 400;
@@ -702,7 +700,7 @@ ul {
   font-size: 18px;
   line-height: 1.2;
   font-weight: 400;
-  color: #ffffff;
+  color: #fff;
   padding-top: 29px;
 }
 .about__link {
@@ -710,7 +708,7 @@ ul {
   font-size: 18px;
   line-height: 1.2;
   font-weight: 400;
-  color: #ffffff;
+  color: #fff;
 }
 .about__social__icons {
   display: flex;
@@ -735,7 +733,7 @@ ul {
   flex-grow: 0;
   display: flex;
   align-items: center;
-  background-color: #000000;
+  background-color: #000;
 }
 .footer .copyright {
   text-align: center;
@@ -743,7 +741,7 @@ ul {
   line-height: 1.2;
   font-weight: 400;
   letter-spacing: 0.05em;
-  color: #ffffff;
+  color: #fff;
   margin: 0 auto;
 }
 
@@ -793,9 +791,6 @@ ul {
     padding-left: calc(50% - 380px);
     padding-right: calc(50% - 380px);
   }
-  .header {
-    /* убирает маркер у details */
-  }
   .header h1 {
     font-size: 60px;
   }
@@ -807,6 +802,9 @@ ul {
   }
   .header .summary:active, .header :hover, .header :focus {
     outline: none;
+  }
+  .header {
+    /* убирает маркер у details */
   }
   .header details summary::marker {
     display: none;
@@ -1074,6 +1072,10 @@ ul {
   .promo__form__heading {
     font-size: 29.5px;
   }
+  .ride__img {
+    width: 64px;
+    height: 64px;
+  }
 }
 @media (max-width: 480px) {
   .center, .header__center {
@@ -1169,6 +1171,14 @@ ul {
   }
   .ride .descriptions__text {
     font-size: 14px;
+  }
+  .ride__img {
+    width: 48px;
+    height: 48px;
+  }
+  .ride__img .ride__icon {
+    width: 20px;
+    height: 20px;
   }
   .mobile__heading_mod {
     font-size: 34px;
